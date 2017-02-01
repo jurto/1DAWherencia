@@ -22,7 +22,7 @@ public class Operario extends Empleado{
 
     @Override
     public String toString() {
-        return "Empleado " + nombre + "-> Operario";
+        return "Empleado " + super.toString() + " -> Operario";
     }
     
 }
