@@ -19,7 +19,7 @@ public Tecnico(String nombre){
 
     @Override
     public String toString() {
-        return "Tecnico{" + '}';
+        return "Tecnico{" + nombre + '}';
     }
 
 
