@@ -19,7 +19,7 @@ public Tecnico(String nombre){
 
     @Override
     public String toString() {
-        return "Empleado " + super.toString() + " -> Tecnico";
+        return super.toString() + " -> Tecnico";
     }
 
 

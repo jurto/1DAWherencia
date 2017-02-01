@@ -22,7 +22,7 @@ public class Oficial extends Operario{
 
     @Override
     public String toString() {
-        return "Empleado " + super.toString() + " -> Oficial";
+        return super.toString() + " -> Oficial";
     }
     
 }

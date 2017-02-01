@@ -19,7 +19,7 @@ public Directivo(String nombre){
 
     @Override
     public String toString() {
-        return "Empleado " + super.toString() + " -> Directivo";
+        return super.toString() + " -> Directivo";
     }
     
 
